@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LearningTestNg">
+
+
+<test name="ApplicationTest" allow-return-values="true">
+    <classes>
+        <class name="testcases.ApplicationTest" ></class>  
+    </classes>
+</test>
+
+<test name="ParametrizationTest" allow-return-values="true">
+    <classes>
+        <class name="testcases.Parametrization" ></class>  
+    </classes>
+</test>
+
+<test name="RegistrationTest" allow-return-values="true">
+    <classes>
+        <class name="testcases.RegTest" ></class>  
+    </classes>
+</test>
+
+
+</suite>
